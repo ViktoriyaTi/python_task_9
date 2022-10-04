@@ -20,7 +20,7 @@ def fibbonacci_negative(number):
         return fibbonacci_negative(number+2) - fibbonacci_negative(number+1) 
 
 
-n=int(input('Введите целое число для создания списка чисел Фибоначчи:= '))    
+n = int(input('Введите целое число для создания списка чисел Фибоначчи:= '))    
 lst1 = []
 for i in range(0,n):
     lst1.append(fibbonacci_positiv(i))
