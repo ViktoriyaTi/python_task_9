@@ -27,6 +27,6 @@ def button_click():
         index, new_phone_number = change_phone()
         update("csv_phone_directory.csv", index, new_phone_number)
     elif user_number == 6:
-        export_data_to_csv("phone_directory.txt")
-    else:
         export_data_to_txt("csv_phone_directory.csv")
+    else:
+        export_data_to_csv("phone_directory.txt")
