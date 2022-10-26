@@ -7,8 +7,8 @@ def init_database(file_name):
     return cursor
 
 
-def show_all(cursor):    
 # показать всех сотрудников в консоли
+def show_all(cursor):    
     cursor.execute("SELECT * FROM employeers")
     results = cursor.fetchall()
     print(results)
